@@ -15,11 +15,9 @@ collections:
     output: true
     permalink: /project/:path/
 
-social:
-    - icon: fa-facebook
-      link: "#"
+social:    
     - icon: fa-linkedin
-      link: "#"
+      link: "https://www.linkedin.com/in/gary-huang-8a7721154/"
     - icon: fa-github
       link: "https://github.com/garyhuang123"
 
