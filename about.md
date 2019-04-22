@@ -4,6 +4,10 @@ title: About
 permalink: /about/
 ---
 
-I'm Programmer for Python & Django. I've made quite a few web apps, especially on Django. Now, I am doing more on backend.
+I now focus on container ecosystem research & development, devops, data analysis, distributed system design.
 
-email: agus[at]python.web.id
+LinkedIn: https://www.linkedin.com/in/gary-huang-8a7721154/
+
+GitHub: https://github.com/garyhuang123
+
+Email: zjh.20052005@163.com
