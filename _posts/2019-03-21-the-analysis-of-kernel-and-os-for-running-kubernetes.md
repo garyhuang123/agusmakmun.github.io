@@ -47,8 +47,9 @@ https://github.com/kubernetes/kubernetes/blob/8993fbc543c18e73668793b5d5e234c0a1
 7. Kubernetes only patches the last 3 minor versions. And Minor releases occur approximately every 3 months. So we are moving to the next minor version in 9 months, as Kubernetes will depend more and more heavily on kernel 4.x features. We will be in high risk on kernel 3.x when k8s version goes up. If we won’t upgrade following the pace, we can’t get the latest security patches from Kubernetes.
 8. Docker now only patches 17.06+. The latest version is 1809.3. Redhat still uses Docker 1.13.1, because their kernel is too old to run newer Docker. The 1.13.1 is even older than 17.03, which is no longer in maintenance scope.
 9. CoreOS adopted kernel 4 very early. In 2015
-10. CentOS officially doesn’t support kernel 4.x by for now. https://en.wikipedia.org/wiki/CentOS.
-11. RHEL 8 defaults on kernel 4.x, but it is beta. No timeline for GA yet. https://developers.redhat.com/rhel8/getrhel8/
+10. RHEL 8 defaults on kernel 4.x, but it is beta. No timeline for GA yet. https://developers.redhat.com/rhel8/getrhel8/
+11. CentOS officially doesn’t support kernel 4.x by for now. https://en.wikipedia.org/wiki/CentOS.
+![CentOS versions](https://raw.githubusercontent.com/garyhuang123/garyhuang123.github.io/master/static/img/_posts/2019-03-21-the-analysis-of-kernel-and-os-for-running-kubernetes/centos_timeline.png  "CentOS versions")
 
 ### My suggestions
 
@@ -67,8 +68,7 @@ Using kernel 4.x is a long-term consideration, as container vendors would not be
 4. The support for Ubuntu Server Long Term Support (LTS) lasts for 5 years 
 5. Ubuntu security update notices can be timely & easily found from https://usn.ubuntu.com/
 6. We can find many Docker demo/practice articles based on Ubuntu.
-7. Valuable article
-8. 10 Reasons Why Ubuntu Is Killing It In The Cloud 2016
+7. Valuable article, [10 Reasons Why Ubuntu Is Killing It In The Cloud 2016](https://www.forbes.com/sites/janakirammsv/2016/01/12/10-reasons-why-ubuntu-is-killing-it-in-the-cloud/#4c0e832e1ae5)
 
 #### The reasons for RancherOS
 
