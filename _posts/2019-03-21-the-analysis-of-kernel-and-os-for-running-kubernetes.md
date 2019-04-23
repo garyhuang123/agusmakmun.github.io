@@ -51,7 +51,7 @@ https://github.com/kubernetes/kubernetes/blob/8993fbc543c18e73668793b5d5e234c0a1
 11. CentOS officially doesn’t support kernel 4.x by for now. https://en.wikipedia.org/wiki/CentOS.
 ![CentOS versions](https://raw.githubusercontent.com/garyhuang123/garyhuang123.github.io/master/static/img/_posts/2019-03-21-the-analysis-of-kernel-and-os-for-running-kubernetes/centos_timeline.png  "CentOS versions")
 
-### My suggestions
+### My suggestion
 
 - Ubuntu Server LTS
 - RancherOS
