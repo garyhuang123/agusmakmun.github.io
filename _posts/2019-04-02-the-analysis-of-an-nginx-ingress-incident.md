@@ -7,7 +7,7 @@ categories: [kubernetes]
 ### The incident
 All the nginx controllers crash by a bad ingress annotation consisting of $ sign.
 
-### An short conclusion
+### A short conclusion
 It is a defect of nginx-controller. When it is at the first time of reloading configuration, say nginx-controller starts up, it fails to reload the healthy rules if there are bad ones (like, with ${variable}) in there. The /etc/nginx/nginx.conf then comes with no upstreams and /healthz location. After a while, Kubernetes probes the pod is unhealthy because no /healthz location is served. So it kills nginx-contoller and tries to restart it. But that repeats because of the continuous conf syntax check failure.
 
 ### How to reproduce it?
